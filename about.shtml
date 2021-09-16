@@ -1,0 +1,10 @@
+<!--#include file="header.shtml" -->
+<section id="page_content">
+    <div class="container">
+        <div class="title">
+            <h1>Acerca del Sitio.</h1>
+            <p>Este sitio fue hecho por parte de un proyecto para el curso de Desarrollo Web, utilizando el framework Bootstrap 4.</p>
+            <p>El marco de las cartas utilizado en el sitio fue obtenido de: <a href="https://www.vecteezy.com/free-vector/tarot">Tarot Vectors by Vecteezy</a></p>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,109 @@
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+
+$custom-black: #000000;
+$custom-red: #B8000A;
+$custom-white: #E8E8E8;
+
+body {
+    background-color: $custom-white;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.navbar-custom {
+    background-color: $custom-black;
+
+    .navbar-brand, .navbar-text {
+        color: $custom-white;
+    }
+}
+
+#page_content {
+    background-color: $custom-white;
+    padding: 8em 0em;
+
+    h1 {
+        font-weight: 900;
+        font-size: 4em;
+        padding-bottom: 0.3125em;
+    }
+}
+
+.title {
+    text-align: center;
+    padding: 1.5625em 0em;
+}
+
+.title p {
+    font-size: 1.125em;
+}
+
+.card-body {
+    transform-style: preserve-3d;
+    background-color: $custom-white;
+    color: $custom-black;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-container {
+    position: relative;
+    display: flex;
+
+    .card {
+        margin: 1.25em 0.625em;
+        transition: all 0.9s;
+        perspective: 40em;
+        border-color: transparent;
+    
+        ul {
+            list-style: none;
+            text-align: left;
+        }
+        
+        li::before {
+            content: "\2022";
+            font-weight: bold;
+            color: $custom-red;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em
+        }
+    }
+
+    .card-front, .card-back {
+        backface-visibility: hidden;
+        background-color: $custom-white;
+    }    
+
+    .card-back {
+        transform: rotateY(180deg);
+        position: absolute;
+        width: 100%;        
+        border-color: #000000;
+        border-width: 0.125em;
+    }
+
+    .btn {
+        background-color: $custom-red;
+        color: $custom-white;
+        display: inline-block;
+        margin-top: auto;
+    }
+}
+
+.card-container:hover .card-front{
+    transform: rotateY(180deg);
+}
+
+.card-container:hover .card-back {
+    transform: rotateY(0deg);
+}
+
+
+
+

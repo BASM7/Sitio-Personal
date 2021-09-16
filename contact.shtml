@@ -1,0 +1,9 @@
+<!--#include file="header.shtml" -->
+<section id="page_content">
+    <div class="container">
+        <div class="title">
+            <h1>Contáctame.</h1>
+            <p>Ponté en contacto conmigo escribiéndome a j.alonsomm07@gmail.com</p>
+        </div>
+    </div>
+</section>

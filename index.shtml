@@ -1,0 +1,71 @@
+<!--#include file="header.shtml" -->
+<section id="page_content">
+    <div class="container">
+        <div class="title">
+            <h1>¡Hola! Soy Alonso.</h1>
+            <p>Actualmente estudiante de la Universidad de Costa Rica. El diseño de buen software es mi pasión.</p>
+        </div>
+        <div class="row justify-content-md-center">
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="card-container">
+                    <div class="card card-front text-center">
+                        <img src="images/objectives.png" class="card-img-top">
+                    </div>
+                    <div class="card card-back text-center">
+                        <div class="card-body">
+                            <p>Siempre cambiantes, considero que en lugar de objetivos, es mejor 
+                                pensar en temas o áreas de mejoración personal.
+                            </p>
+                            <p>Por ahora, esas son:</p>
+                            <ul>
+                                <li>
+                                    Salud física, mental, y emocional.
+                                </li>
+                                <li>
+                                    Educación profesional.
+                                </li>
+                                <li>
+                                    Optimización del tiempo.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="card-container">
+                    <div class="card card-front text-center">
+                        <img src="images/computacion.png" class="card-img-top">
+                    </div>
+                    <div class="card card-back text-center">
+                        <div class="card-body">
+                            <p>¿Por qué escogí computación?</p>
+                            <p>¿Cúales son mis cursos favoritos?</p>
+                            <p>¿Cúales son algunos profesores y compañeros memorables?</p>
+                            <p>¿Cúales son mis proyectos?</p>
+                            <p><a href="computation.shtml" class="btn">Aprender más</a></p>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="card-container">
+                    <div class="card card-front text-center">
+                        <img src="images/pasatiempos.png" class="card-img-top">
+                    </div>
+                    <div class="card card-back text-center">
+                        <div class="card-body">
+                            <ul>
+                                <li>Leer.</li>
+                                <li>Videojuegos.</li>
+                                <li>Ver series.</li>
+                                <li>Programar.</li>
+                                <li>Dibujar.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,83 @@
+<!--#include file="header.shtml" -->
+<section id="page_content">
+    <div class="container">
+        <div class="title">
+            <h1>Computación.</h1>
+            <p>
+                ¿Por qué escogí computación? 
+                ¿Cúales son mis cursos favoritos? ¿Cúales son algunos profesores y compañeros memorables? ¿Cúales son mis proyectos?
+            </p>
+        </div>
+        <div class="row justify-content-md-center">
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="card-container">
+                    <div class="card card-front text-center">
+                        <img src="images/motivacion.png" class="card-img-top">
+                    </div>
+                    <div class="card card-back text-center">
+                        <div class="card-body">
+                            <p>Siempre me he sentido atraido por las computación en general, pero no fue hasta que escribí mi primer
+                                programa que algo pasó. Específicamente, no pasó nada. No servía. Pero yo tenía que averiguar porqué. Y
+                                bueno, aquí sigo.
+                            </p>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="card-container">
+                    <div class="card card-front text-center">
+                        <img src="images/acknowledgement.png" class="card-img-top">
+                    </div>
+                    <div class="card card-back text-center">
+                        <div class="card-body">
+                            <p>
+                                Al profesor <b>Miguél Guzmán Stein</b> por mostrarme lo importante y divertido que puede ser aprender historia.
+                            </p>
+                            <p>
+                                A la profesora <b>Sandra Kikut Valverde</b> por enseñarme que la computación es compleja pero no díficil.
+                            </p>
+                            <p>
+                                A mis compañeros y amigos <b>Luis Jímenez Aguilar</b> y <b>Victor Mora Abarca</b> que todavía me toleran.
+                            </p>                            
+                        </div>
+                    </div>
+                </div>   
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="card-container">
+                    <div class="card card-front text-center">
+                        <img src="images/favorites.png" class="card-img-top">
+                    </div>
+                    <div class="card card-back text-center">
+                        <div class="card-body">
+                            <ul>
+                                <li>Programación I.</li>
+                                <li>Cálculo para Computación II.</li>
+                                <li>Análisis de Algoritmos y Estructuras de Datos.</li>
+                                <li>Lenguaje Ensamblador.</li>
+                                <li>Diseño de Software.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="card-container">
+                    <div class="card card-front text-center">
+                        <img src="images/downloads.png" class="card-img-top">
+                    </div>
+                    <div class="card card-back text-center">
+                        <div class="card-body">
+                            <p>
+                                Revisa en qué proyectos he estado trabajando últimamente.
+                            </p>
+                            <p>
+                                <a href="https://github.com/BASM7?tab=repositories" target="_blank" class="btn">Abrir ventana de Github.</a></p>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+        </div>
+    </div>
+</section>
