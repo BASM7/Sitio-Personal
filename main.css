@@ -12025,7 +12025,7 @@ body {
 }
 
 .card-container .card li::before {
-  content: "\2022";
+  content: "\25A3";
   font-weight: bold;
   color: #B8000A;
   display: inline-block;
